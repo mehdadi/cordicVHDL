@@ -1,0 +1,80 @@
+Vivado Simulator 2014.3
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.3/bin/unwrapped/win64.o/xelab.exe -wto 9e65db9197ce4c9eb2e57406ea82c691 --debug typical --relax -L xbip_utils_v3_0 -L c_reg_fd_v12_0 -L xbip_dsp48_wrapper_v3_0 -L xbip_pipe_v3_0 -L xbip_dsp48_addsub_v3_0 -L xbip_addsub_v3_0 -L c_addsub_v12_0 -L xbip_bram18k_v3_0 -L mult_gen_v12_0 -L axi_utils_v2_0 -L cordic_v6_0 -L xil_defaultlib -L secureip --snapshot TB_Proccessor_behav xil_defaultlib.TB_Proccessor -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-725] function jmp_pred does not always return a value [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:409]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling package cordic_v6_0.cordic_v6_0_viv_comp
+Compiling package std.textio
+Compiling package xbip_utils_v3_0.xbip_utils_v3_0_pkg
+Compiling package xbip_pipe_v3_0.xbip_pipe_v3_0_viv_comp
+Compiling package axi_utils_v2_0.axi_utils_v2_0_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0.global_util_pkg
+Compiling package axi_utils_v2_0.axi_utils_comps
+Compiling package mult_gen_v12_0.mult_gen_v12_0_pkg
+Compiling package cordic_v6_0.cordic_pack
+Compiling package cordic_v6_0.cordic_hdl_comps
+Compiling package c_addsub_v12_0.c_addsub_v12_0_viv_comp
+Compiling package xbip_addsub_v3_0.xbip_addsub_v3_0_viv_comp
+Compiling package c_addsub_v12_0.c_addsub_v12_0_pkg
+Compiling package c_addsub_v12_0.c_addsub_v12_0_pkg_legacy
+Compiling package c_reg_fd_v12_0.c_reg_fd_v12_0_viv_comp
+Compiling package unisim.vcomponents
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Memory [memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.P_BUS [p_bus_default]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(12,1,0,0,0,0...]
+Compiling architecture structural of entity c_reg_fd_v12_0.c_reg_fd_v12_0_viv [\c_reg_fd_v12_0_viv(12,"","",0,0...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0.c_addsub_v12_0_lut6_legacy [\c_addsub_v12_0_lut6_legacy(12,2...]
+Compiling architecture synth of entity c_addsub_v12_0.c_addsub_v12_0_fabric_legacy [\c_addsub_v12_0_fabric_legacy("k...]
+Compiling architecture synth of entity c_addsub_v12_0.c_addsub_v12_0_legacy [\c_addsub_v12_0_legacy("kintex7"...]
+Compiling architecture synth of entity c_addsub_v12_0.c_addsub_v12_0_viv [\c_addsub_v12_0_viv(0,"kintex7",...]
+Compiling architecture synth of entity cordic_v6_0.addsub [\addsub("kintex7",2,0,0,1,0,0,10...]
+Compiling architecture struct_all of entity cordic_v6_0.delay [\delay(1,"kintex7",0,0,1,10,0,10...]
+Compiling architecture struct_all of entity cordic_v6_0.delay [\delay(1,"kintex7",0,0,1,1,0,1,0...]
+Compiling architecture struct_all of entity cordic_v6_0.delay_bit [\delay_bit(2,"kintex7",0,0,1)(1,...]
+Compiling architecture synth of entity cordic_v6_0.cordic_inp_config [\cordic_inp_config("kintex7",2,1...]
+Compiling architecture synth of entity cordic_v6_0.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par("kinte...]
+Compiling architecture synth of entity cordic_v6_0.cordic_pha_acc_slice_par [\cordic_pha_acc_slice_par("kinte...]
+Compiling architecture struct_all of entity cordic_v6_0.delay [\delay(1,"kintex7",0,0,1,2,0,2,0...]
+Compiling architecture struct_all of entity cordic_v6_0.delay_bit [\delay_bit(1,"kintex7",0,0,1)(1,...]
+Compiling architecture synth of entity cordic_v6_0.cordic_ctrl_slice_par [\cordic_ctrl_slice_par("kintex7"...]
+Compiling architecture synth of entity cordic_v6_0.cordic_eng_slice_par [\cordic_eng_slice_par("kintex7",...]
+Compiling architecture synth of entity cordic_v6_0.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par("kinte...]
+Compiling architecture synth of entity cordic_v6_0.cordic_eng_slice_par [\cordic_eng_slice_par("kintex7",...]
+Compiling architecture synth of entity cordic_v6_0.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par("kinte...]
+Compiling architecture synth of entity cordic_v6_0.cordic_eng_slice_par [\cordic_eng_slice_par("kintex7",...]
+Compiling architecture synth of entity cordic_v6_0.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par("kinte...]
+Compiling architecture synth of entity cordic_v6_0.cordic_eng_slice_par [\cordic_eng_slice_par("kintex7",...]
+Compiling architecture synth of entity cordic_v6_0.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par("kinte...]
+Compiling architecture synth of entity cordic_v6_0.cordic_eng_slice_par [\cordic_eng_slice_par("kintex7",...]
+Compiling architecture synth of entity cordic_v6_0.cordic_dat_acc_slice_par [\cordic_dat_acc_slice_par("kinte...]
+Compiling architecture synth of entity cordic_v6_0.cordic_eng_slice_par [\cordic_eng_slice_par("kintex7",...]
+Compiling architecture synth of entity cordic_v6_0.cordic_eng [\cordic_eng("kintex7",2,2,3,0,0,...]
+Compiling architecture struct_all of entity cordic_v6_0.delay [\delay(0,"kintex7",0,0,1,10,0,10...]
+Compiling architecture struct_all of entity cordic_v6_0.delay [\delay(1,"kintex7",0,0,1,7,0,7,0...]
+Compiling architecture synth of entity cordic_v6_0.cordic_round [\cordic_round("kintex7",1,0,0,11...]
+Compiling architecture struct_all of entity cordic_v6_0.delay_bit [\delay_bit(0,"kintex7",0,0,1)(1,...]
+Compiling architecture synth of entity cordic_v6_0.cordic_out_config [\cordic_out_config("kintex7",2,1...]
+Compiling architecture synth of entity cordic_v6_0.cordic_v6_0_synth [\cordic_v6_0_synth(2,2,1,0,"kint...]
+Compiling architecture synth of entity cordic_v6_0.cordic_v6_0_viv [\cordic_v6_0_viv(2,2,1,0,"kintex...]
+Compiling architecture xilinx of entity cordic_v6_0.cordic_v6_0 [\cordic_v6_0(2,2,1,0,"kintex7",0...]
+Compiling architecture cordic_0_arch of entity xil_defaultlib.cordic_0 [cordic_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.Proccessor [proccessor_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_proccessor
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot TB_Proccessor_behav

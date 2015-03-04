@@ -1,0 +1,2 @@
+vhdl isim_temp "BIU.vhd"
+vhdl isim_temp "BIUtestbench.vhd"

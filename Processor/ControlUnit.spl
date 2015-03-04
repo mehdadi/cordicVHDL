@@ -1,0 +1,12 @@
+[Inputs]
+clk
+start
+=test[23:0]=
+=control_bus_in[2:0]=
+=data_in[7:0]=
+[Outputs]
+=address_bus[7:0]=
+=control_bus_out[4:0]=
+=BIU[3:0]=
+=data_out[7:0]=
+[BiDir]

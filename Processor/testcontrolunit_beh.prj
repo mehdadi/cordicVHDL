@@ -1,0 +1,3 @@
+vhdl work "ALU.vhd"
+vhdl work "ControlUnit.vhd"
+vhdl work "testcontrolunit.vhd"

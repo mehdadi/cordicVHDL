@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.3 (64-bit)
+# SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Wed Mar 04 19:08:14 2015
+# Process ID: 5680
+# Log file: C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.sim/sim_1/behav/xsim.dir/TB_Proccessor_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,7 @@
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "P_BUS.vhd"
+vhdl isim_temp "Memory.vhd"
+vhdl isim_temp "ipcore_dir/cordic_v4_0.vhd"
+vhdl isim_temp "ControlUnit.vhd"
+vhdl isim_temp "Proccessor.vhd"
+vhdl isim_temp "TB_Proccessor.vhd"

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\c_addsub_v11_0\c_addsub_pkg_v11_0.vhd" Line 760: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">TRUE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 499: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 500: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="220" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 502: Assignment ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\c_addsub_v11_0\c_addsub_v11_0_legacy.vhd" Line 282: Net &lt;<arg fmt="%s" index="1">c_in_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\c_addsub_v11_0\c_addsub_v11_0_xst.vhd" Line 234: Net &lt;<arg fmt="%s" index="1">i_baseblox.i_b_in</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\cordic_v4_0\cordic_eng_slice_par.vhd" Line 126: Using initial value <arg fmt="%s" index="1">&quot;00001110111&quot;</arg> for <arg fmt="%s" index="2">s_rom_data_int</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\cordic_v4_0\cordic_dat_acc_slice_par.vhd" Line 104: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">s_transform_type</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\cordic_v4_0\delay_bit.vhd" Line 99: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\cordic_v4_0\delay.vhd" Line 101: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\mehrdad\Documents\xilinx\Processor\ipcore_dir\tmp\_cg\_dbg\cordic_v4_0\cordic_out_config.vhd" Line 121: Net &lt;<arg fmt="%s" index="1">phase_rnd[7]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/cordic_out_config.vhd</arg>&quot; line <arg fmt="%d" index="2">317</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">gen_rotation.gen_rotate.gen_phase_cr</arg>&gt; of block &lt;<arg fmt="%s" index="4">delay</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cordic_out_config</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0.vhd</arg>&quot; line <arg fmt="%s" index="2">117</arg>: Output port &lt;<arg fmt="%s" index="3">phase_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0.vhd</arg>&quot; line <arg fmt="%s" index="2">117</arg>: Output port &lt;<arg fmt="%s" index="3">rfd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">X_IN&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Y_IN&lt;7:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/cordic_v4_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">294</arg>: Output port &lt;<arg fmt="%s" index="3">rfd_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gen_cordic.cordic_engine</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/cordic_v4_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">326</arg>: Output port &lt;<arg fmt="%s" index="3">phase_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gen_cordic.output_stage</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">PHASE_OUT</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RFD</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/addsub.vhd</arg>&quot; line <arg fmt="%s" index="2">92</arg>: Output port &lt;<arg fmt="%s" index="3">C_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">C_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">240</arg>: Output port &lt;<arg fmt="%s" index="3">s</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_baseblox.i_baseblox_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">240</arg>: Output port &lt;<arg fmt="%s" index="3">ovfl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_baseblox.i_baseblox_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">240</arg>: Output port &lt;<arg fmt="%s" index="3">c_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_baseblox.i_baseblox_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">240</arg>: Output port &lt;<arg fmt="%s" index="3">b_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_baseblox.i_baseblox_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">240</arg>: Output port &lt;<arg fmt="%s" index="3">q_ovfl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_baseblox.i_baseblox_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_xst.vhd</arg>&quot; line <arg fmt="%s" index="2">240</arg>: Output port &lt;<arg fmt="%s" index="3">q_b_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">i_baseblox.i_baseblox_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">i_baseblox.i_b_in</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">c_addsub_v11_0_xst</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="new" >Signal &apos;<arg fmt="%s" index="1">i_baseblox.i_c_in</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">c_addsub_v11_0_xst</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">c_in</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">b_in</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">a_signed</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">b_signed</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_legacy.vhd</arg>&quot; line <arg fmt="%s" index="2">402</arg>: Output port &lt;<arg fmt="%s" index="3">ovfl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">no_pipelining.the_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_legacy.vhd</arg>&quot; line <arg fmt="%s" index="2">402</arg>: Output port &lt;<arg fmt="%s" index="3">c_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">no_pipelining.the_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_legacy.vhd</arg>&quot; line <arg fmt="%s" index="2">402</arg>: Output port &lt;<arg fmt="%s" index="3">q_ovfl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">no_pipelining.the_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/c_addsub_v11_0/c_addsub_v11_0_legacy.vhd</arg>&quot; line <arg fmt="%s" index="2">402</arg>: Output port &lt;<arg fmt="%s" index="3">q_c_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">no_pipelining.the_addsub</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ovfl</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">c_out</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">b_out</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_ovfl</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_c_out</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_b_out</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">c_in_i</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">c_in</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">bypass</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">sclr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">sset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">sinit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">s</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ovfl</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">c_out</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_ovfl</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">q_c_out</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ainit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">aclr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">aset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">sinit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">sclr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">sset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">nd_in</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/cordic_eng.vhd</arg>&quot; line <arg fmt="%s" index="2">132</arg>: Output port &lt;<arg fmt="%s" index="3">add_nsub_gen_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gen_para_arch.gen_iteration[5].eng</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">aclr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">aclr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/cordic_out_config.vhd</arg>&quot; line <arg fmt="%s" index="2">317</arg>: Output port &lt;<arg fmt="%s" index="3">D_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gen_rotation.gen_rotate.gen_phase_cr</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/cordic_out_config.vhd</arg>&quot; line <arg fmt="%s" index="2">560</arg>: Output port &lt;<arg fmt="%s" index="3">ovfl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gen_x_out.round</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/mehrdad/documents/xilinx/processor/ipcore_dir/tmp/_cg/_dbg/cordic_v4_0/cordic_out_config.vhd</arg>&quot; line <arg fmt="%s" index="2">583</arg>: Output port &lt;<arg fmt="%s" index="3">ovfl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gen_y_out.round</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">phase_rnd</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">WE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">round_in&lt;0:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ovfl</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_x_int_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_inp_config</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_x_int_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_inp_config</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_x_int_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_inp_config</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_x_int_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_inp_config</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_x_int_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_inp_config</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">data_x_int_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_inp_config</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">data_x_int_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_inp_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_x_int_4&gt; &lt;data_x_int_5&gt; &lt;data_x_int_7&gt; &lt;data_x_int_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">data_y_int_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_inp_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">13 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;data_y_int_1&gt; &lt;data_y_int_2&gt; &lt;data_y_int_3&gt; &lt;data_y_int_4&gt; &lt;data_y_int_5&gt; &lt;data_y_int_6&gt; &lt;data_y_int_7&gt; &lt;data_y_int_8&gt; &lt;data_y_int_9&gt; &lt;data_y_int_10&gt; &lt;phase_int_0&gt; &lt;phase_int_1&gt; &lt;phase_int_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">data_x_int_3</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">cordic_inp_config</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">data_y_int_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_inp_config</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[2].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[3].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[4].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/cntrl/engine_mode_dly/gen_rtl.gen_reg.d_reg</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_3_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_2_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_1_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[2].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[2].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[2].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[3].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[3].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[3].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[4].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[4].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[4].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/phase_slice/phase_plus_atan/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[5].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_x_cr/gen_rtl.gen_reg.d_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_x_cr/gen_rtl.gen_reg.d_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_x_cr/gen_rtl.gen_reg.d_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_y_cr/gen_rtl.gen_reg.d_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_y_cr/gen_rtl.gen_reg.d_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_y_cr/gen_rtl.gen_reg.d_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_y_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_y_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_y_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_y_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_x_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_x_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_x_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.output_stage/gen_rotation.gen_rotate.gen_data_x_addsub/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cordic_v4_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_7&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_5&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_8&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_6&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_5&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_4&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_2_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_2_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2&gt; &lt;U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/gen_rtl.gen_reg.d_reg_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_2_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.input_stage/data_x_int_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1&gt; &lt;U0/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_2_4quad/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[1].eng/data_slice/x_plus_y_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">cordic_v4_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_10&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_9&gt; &lt;U0/i_synth/gen_cordic.cordic_engine/gen_para_arch.gen_iteration[0].eng/data_slice/y_plus_x_shift/inst/i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/fd/output_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2014.3 (64-bit)
+# SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Tue Mar 03 23:50:11 2015
+# Process ID: 6784
+# Log file: C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/vivado.log
+# Journal file: C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.xpr
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+file mkdir C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/new
+create_ip -name cordic -vendor xilinx.com -library ip -version 6.0 -module_name cordic_0

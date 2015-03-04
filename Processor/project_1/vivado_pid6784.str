@@ -1,0 +1,455 @@
+/*
+
+Vivado v2014.3 (64-bit)
+SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+Process ID: 6784
+
+Current time: 	3/3/15 11:50:27 PM
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.3/tps/win64/jre
+
+User name: 	mehrdad.montazeri
+User directory: C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+Vivado preferences path: C:/Users/mehrdad.montazeri/AppData/Roaming/Xilinx/Vivado/2014.3/vivado.ini
+Vivado layouts directory: C:/Users/mehrdad.montazeri/AppData/Roaming/Xilinx/Vivado/2014.3/layouts/application
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 400 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 2.1s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cn:P (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.xpr 
+// Tcl Message: INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 41 MB (+40850kb) [00:00:08]
+// [Engine Memory]: 360 MB (+226216kb) [00:00:08]
+// [GUI Memory]: 47 MB (+5847kb) [00:00:09]
+// [Engine Memory]: 372 MB (+12263kb) [00:00:09]
+// [Engine Memory]: 390 MB (+18690kb) [00:00:09]
+// [Engine Memory]: 395 MB (+5529kb) [00:00:12]
+// [GUI Memory]: 55 MB (+8357kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.3/data/ip'. 
+// [Engine Memory]: 407 MB (+12791kb) [00:00:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 407 MB. GUI used memory: 53 MB. Current time: 3/3/15 11:50:27 PM
+// [Engine Memory]: 407 MB (+77kb) [00:00:14]
+// [Engine Memory]: 407 MB (+163kb) [00:00:14]
+// [Engine Memory]: 408 MB (+184kb) [00:00:14]
+// [Engine Memory]: 409 MB (+1314kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 409 MB (+286kb) [00:00:14]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 55 MB (+348kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 56 MB (+580kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 57 MB (+1135kb) [00:00:16]
+// [Engine Memory]: 410 MB (+1183kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 58 MB (+1139kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 58 MB (+430kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1; part: xc7k70tfbg676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 682.621 ; gain = 145.285 
+dismissDialog("Open Project"); // cn:P (ch:JFrame)
+// [Engine Memory]: 412 MB (+2023kb) [00:00:18]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 416 MB (+3624kb) [00:00:18]
+// [GUI Memory]: 59 MB (+1017kb) [00:04:08]
+// [GUI Memory]: 60 MB (+345kb) [00:08:27]
+// [GUI Memory]: 60 MB (+20kb) [00:08:32]
+// [GUI Memory]: 60 MB (+631kb) [00:08:37]
+// [GUI Memory]: 60 MB (+29kb) [00:08:42]
+// Elapsed time: 529 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // u:k (H:JPanel, ch:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // u:k (H:JPanel, ch:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1); // u:k (H:JPanel, ch:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // g:JideTabbedPane (I:aG, ch:JFrame)
+// PAPropertyPanels.initPanels (import_ise_summary.txt) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, import_ise_summary.txt]", 7, false); // u:k (H:JPanel, ch:JFrame)
+// [GUI Memory]: 61 MB (+307kb) [00:09:19]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, import_ise_summary.txt]", 7, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 63 MB (+2259kb) [00:09:24]
+// [Engine Memory]: 416 MB (+159kb) [00:09:24]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "import_ise_summary.txt", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // s:aG
+// [Engine Memory]: 419 MB (+3665kb) [00:09:32]
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // g:JideTabbedPane (I:aG, ch:JFrame)
+// [Engine Memory]: 420 MB (+868kb) [00:09:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 423 MB. GUI used memory: 32 MB. Current time: 3/3/15 11:59:50 PM
+// [Engine Memory]: 441 MB (+21958kb) [00:09:40]
+// Elapsed time: 12 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (I:aG, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Proccessor - behavior (TB_Proccessor.vhd)]", 11, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Proccessor - behavior (TB_Proccessor.vhd)]", 11, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 64 MB (+1632kb) [00:12:07]
+// Elapsed time: 145 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Proccessor - behavior (TB_Proccessor.vhd), uut - Proccessor - Behavioral (Proccessor.vhd)]", 12); // u:k (H:JPanel, ch:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Proccessor - behavior (TB_Proccessor.vhd), uut - Proccessor - Behavioral (Proccessor.vhd)]", 12); // u:k (H:JPanel, ch:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Proccessor - behavior (TB_Proccessor.vhd)]", 11); // u:k (H:JPanel, ch:JFrame)
+selectCodeEditor("TB_Proccessor.vhd", 288, 264); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 66 MB (+2263kb) [00:12:29]
+// [Engine Memory]: 443 MB (+2023kb) [00:12:32]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1); // u:k (H:JPanel, ch:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text]", 7); // u:k (H:JPanel, ch:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text]", 7); // u:k (H:JPanel, ch:JFrame)
+// [GUI Memory]: 68 MB (+1564kb) [00:12:40]
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ALUTestBench - behavior (ALUTestBench.vhd)]", 12); // u:k (H:JPanel, ch:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ALUTestBench - behavior (ALUTestBench.vhd)]", 12); // u:k (H:JPanel, ch:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Proccessor - behavior (TB_Proccessor.vhd)]", 11); // u:k (H:JPanel, ch:JFrame)
+// [GUI Memory]: 68 MB (+416kb) [00:12:48]
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, TB_Proccessor - behavior (TB_Proccessor.vhd)]", 11); // u:k (H:JPanel, ch:JFrame)
+// [GUI Memory]: 71 MB (+2500kb) [00:12:53]
+// [GUI Memory]: 72 MB (+819kb) [00:12:57]
+// [GUI Memory]: 73 MB (+1571kb) [00:12:58]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), DSP - cordic_v4_0 - cordic_v4_0_a (cordic_v4_0.vhd)]", 5, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), DSP - cordic_v4_0 - cordic_v4_0_a (cordic_v4_0.vhd)]", 5, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+selectCodeEditor("cordic_v4_0.vhd", 296, 303); // aY:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 73 MB (+374kb) [00:13:13]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), P_Bus0 - P_BUS - Behavioral (P_BUS.vhd)]", 4, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), P_Bus0 - P_BUS - Behavioral (P_BUS.vhd)]", 4, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 76 MB (+2598kb) [00:13:16]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), mem0 - Memory - Behavioral (Memory.vhd)]", 3, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), mem0 - Memory - Behavioral (Memory.vhd)]", 3, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+selectCodeEditor("Memory.vhd", 409, 324, false, false, false, true, false); // aY:J (JPanel:JComponent, ch:JFrame) - Popup Trigger
+selectCodeEditor("Memory.vhd", 280, 268); // aY:J (JPanel:JComponent, ch:JFrame)
+// [Engine Memory]: 449 MB (+6512kb) [00:13:28]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 77 MB (+849kb) [00:14:03]
+// [GUI Memory]: 78 MB (+1885kb) [00:14:05]
+// [GUI Memory]: 79 MB (+785kb) [00:16:37]
+// [GUI Memory]: 79 MB (+145kb) [00:16:42]
+// Elapsed time: 191 seconds
+selectCodeEditor("ControlUnit.vhd", 96, 228); // aY:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 79 MB (+87kb) [00:23:41]
+// [GUI Memory]: 80 MB (+130kb) [00:23:46]
+// Elapsed time: 636 seconds
+selectCodeEditor("ControlUnit.vhd", 487, 338); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("ControlUnit.vhd", 378, 327); // aY:J (JPanel:JComponent, ch:JFrame)
+// [Engine Memory]: 452 MB (+2830kb) [00:27:54]
+// Elapsed time: 90 seconds
+selectCodeEditor("ControlUnit.vhd", 278, 414); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 252 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), mem0 - Memory - Behavioral (Memory.vhd)]", 4, false); // u:k (H:JPanel, ch:JFrame)
+// [GUI Memory]: 80 MB (+737kb) [00:33:34]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), mem0 - Memory - Behavioral (Memory.vhd)]", 4, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), P_Bus0 - P_BUS - Behavioral (P_BUS.vhd)]", 5, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), P_Bus0 - P_BUS - Behavioral (P_BUS.vhd)]", 5, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 81 MB (+823kb) [00:33:54]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 82 MB (+679kb) [00:34:00]
+// [GUI Memory]: 82 MB (+562kb) [00:37:52]
+// [GUI Memory]: 83 MB (+390kb) [00:37:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 452 MB. GUI used memory: 37 MB. Current time: 3/4/15 12:29:50 AM
+// Elapsed time: 589 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 83 MB (+584kb) [00:43:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+selectCodeEditor("ControlUnit.vhd", 282, 301); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("ControlUnit.vhd", 334, 147); // aY:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true); // u:k (H:JPanel, ch:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd), ALU0 - ALU - Behavioral (ALU.vhd)]", 3, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd), ALU0 - ALU - Behavioral (ALU.vhd)]", 3, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), cou0 - ControlUnit - Behavioral (ControlUnit.vhd)]", 2, true, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 84 MB (+706kb) [00:45:52]
+// [GUI Memory]: 84 MB (+152kb) [00:45:57]
+// [GUI Memory]: 84 MB (+148kb) [00:50:47]
+// [GUI Memory]: 84 MB (+44kb) [00:50:52]
+// [Engine Memory]: 458 MB (+6041kb) [00:51:32]
+// [GUI Memory]: 84 MB (+133kb) [00:56:37]
+// [GUI Memory]: 84 MB (+44kb) [00:56:42]
+// [GUI Memory]: 85 MB (+1046kb) [00:56:47]
+// [GUI Memory]: 86 MB (+952kb) [00:56:52]
+// [GUI Memory]: 86 MB (+159kb) [00:56:57]
+// [GUI Memory]: 87 MB (+911kb) [01:09:03]
+// [GUI Memory]: 87 MB (+49kb) [01:09:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 37 MB. Current time: 3/4/15 12:59:51 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 34 MB. Current time: 3/4/15 1:29:51 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 1:59:51 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 2:29:51 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 2:59:51 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 3:29:52 AM
+// [GUI Memory]: 87 MB (+120kb) [03:53:10]
+// [GUI Memory]: 87 MB (+65kb) [03:59:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 3:59:52 AM
+// [GUI Memory]: 88 MB (+625kb) [04:30:02]
+// [GUI Memory]: 88 MB (+244kb) [04:30:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 33 MB. Current time: 3/4/15 4:29:52 AM
+// [GUI Memory]: 88 MB (+8kb) [04:53:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 31 MB. Current time: 3/4/15 4:59:52 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 5:29:53 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 31 MB. Current time: 3/4/15 5:59:53 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 6:29:53 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 6:59:53 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 7:29:54 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 7:59:54 AM
+// [GUI Memory]: 88 MB (+21kb) [08:23:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 8:29:54 AM
+// [GUI Memory]: 88 MB (+75kb) [08:53:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 32 MB. Current time: 3/4/15 8:59:55 AM
+// [GUI Memory]: 89 MB (+256kb) [09:39:31]
+// [GUI Memory]: 89 MB (+216kb) [09:39:36]
+// [GUI Memory]: 90 MB (+1012kb) [09:39:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 39 MB. Current time: 3/4/15 9:29:56 AM
+// [GUI Memory]: 93 MB (+2980kb) [09:48:31]
+// Elapsed time: 32608 seconds
+selectCodeEditor("ControlUnit.vhd", 226, 319); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("ControlUnit.vhd", 282, 444); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("ControlUnit.vhd", 228, 317); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("ControlUnit.vhd", 852, 397); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("ControlUnit.vhd", 223, 313); // aY:J (JPanel:JComponent, ch:JFrame)
+typeControlKey((HResource) null, "ControlUnit.vhd", 'v'); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("ControlUnit.vhd", 240, 456); // aY:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 16, false); // w:Y (v:H, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cn:P (ch:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cn:P (ch:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed Mar 04 09:40:35 2015] Launched synth_1... Run output will be captured here: C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cn:P (ch:JFrame)
+// [GUI Memory]: 93 MB (+682kb) [09:50:23]
+// TclEventType: RUN_COMPLETED
+// Q:ao (ch:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ao)
+dismissDialog("Synthesis Completed"); // Q:ao (ch:JFrame)
+// [GUI Memory]: 95 MB (+1507kb) [09:50:59]
+// Elapsed time: 161 seconds
+selectCodeEditor("ControlUnit.vhd", 233, 687); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 174 seconds
+selectCodeEditor("ControlUnit.vhd", 736, 146); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 78 seconds
+selectCodeEditor("ControlUnit.vhd", 199, 251); // aY:J (JPanel:JComponent, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("ControlUnit.vhd", 206, 351); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("ControlUnit.vhd", 430, 385); // aY:J (JPanel:JComponent, ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// d:cn (ch:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'TB_Proccessor' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)... INFO: [USF-XSim-101] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.sim/sim_1/behav' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '' file for more information. 
+// a:a (ch:JFrame): Critical Messages: addNotify
+dismissDialog("Run Simulation"); // d:cn (ch:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 118, 78); // dU:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 289, 80); // dU:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 17 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 159, 52); // dU:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 846, 55); // dU:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 846, 55); // dU:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 846, 55, false, false, false, false, true); // dU:J (JPanel:JComponent, ch:JFrame) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1018, 54); // dU:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1018, 54, false, false, false, false, true); // dU:J (JPanel:JComponent, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), DSP - cordic_v4_0 - cordic_v4_0_a (cordic_v4_0.vhd)]", 5, false); // u:k (H:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), DSP - cordic_v4_0 - cordic_v4_0_a (cordic_v4_0.vhd)]", 5, false, false, false, false, false, true); // u:k (H:JPanel, ch:JFrame) - Double Click
+selectCodeEditor("cordic_v4_0.vhd", 720, 439); // aY:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectCodeEditor("cordic_v4_0.vhd", 347, 511); // aY:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("cordic_v4_0.vhd", 757, 432); // aY:J (JPanel:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // Z:JMenuItem (JPopupMenu:JComponent, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (ch:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_EXISTING_CONFIGURABLE_IP, "Add Existing IP"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton("BACK", "< Back"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SYSTEM_GENERATOR_FOR_DSP_SOURCES, "Add or Create DSP Sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_SUB_DESIGN, "Add Sub-Design..."); // a:JButton (JPanel:JComponent, b:g)
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_SUB_DESIGN, "Create Sub-Design..."); // a:JButton (JPanel:JComponent, b:g)
+// K:ae (b:g): Create system generator source: addNotify
+setText(PAResourceAtoD.CreateSysgenFileDialog_MODULE_NAME, (String) null); // an:JTextField (JPanel:JComponent, K:ae)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, K:ae)
+dismissDialog("Create system generator source"); // K:ae (b:g)
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // b:g (ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd)]", 1, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // u:k (H:JPanel, ch:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (ch:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_SUB_DESIGN, "Create Sub-Design..."); // a:JButton (JPanel:JComponent, b:g)
+// K:ae (b:g): Create system generator source: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, K:ae)
+// Tcl Message: file mkdir C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/new 
+dismissDialog("Create system generator source"); // K:ae (b:g)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "SourceRoot_small ; 1 ; module_1.slx ;  N/A ; <Local to Project>", 0, "module_1.slx", 2); // bs:u (JViewport:JComponent, b:g)
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 16 seconds
+dismissDialog("Add Sources"); // b:g (ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // u:k (H:JPanel, ch:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // u:k (H:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // w:Y (v:H, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// cn:P (ch:JFrame):  IP Catalog : addNotify
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// cn:P (ch:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // cn:P (ch:JFrame)
+dismissDialog("IP Catalog"); // cn:P (ch:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI4-Stream Data Width Converter ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:axis_dwidth_converter:1.1", 23, "AXI4-Stream Data Width Converter", 0, false); // P:au (JViewport:JComponent, ch:JFrame)
+// [Engine Memory]: 461 MB (+3174kb) [10:00:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 461 MB. GUI used memory: 49 MB. Current time: 3/4/15 9:50:50 AM
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Complex Multiplier ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cmpy:6.0", 77, "Complex Multiplier", 0, false); // P:au (JViewport:JComponent, ch:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "cordic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ch:JFrame)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // P:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "CORDIC ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cordic:6.0", 0, "CORDIC", 0, false); // P:au (JViewport:JComponent, ch:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "CORDIC ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cordic:6.0", 0); // P:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "CORDIC ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cordic:6.0", 0, "CORDIC", 0, false, false, false, false, false, true); // P:au (JViewport:JComponent, ch:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// cn:P (ch:JFrame):  Customize IP : addNotify
+// q:P (ch:JFrame): Customize IP: addNotify
+// [Engine Memory]: 467 MB (+6430kb) [10:00:53]
+dismissDialog("Customize IP"); // cn:P (ch:JFrame)
+// [Engine Memory]: 475 MB (+8503kb) [10:00:54]
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Implementation Details", 1); // cy:g (G:JPanel, q:P)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, PAResourceTtoZ.XPG_TopPanel_IP_SYMBOL, "IP Symbol", 0); // cy:g (G:JPanel, q:P)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, q:P)
+// Elapsed time: 524 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Proccessor - Behavioral (Proccessor.vhd), P_Bus0 - P_BUS - Behavioral (P_BUS.vhd)]", 4, false); // u:k (H:JPanel, ch:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "CORDIC ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cordic:6.0", 0, "CORDIC", 0, false); // P:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "CORDIC ; AXI4-Stream ; Production ; Included ; xilinx.com:ip:cordic:6.0", 0, "CORDIC", 0, false, false, false, false, false, true); // P:au (JViewport:JComponent, ch:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// q:P (ch:JFrame): Customize IP: addNotify
+setText("Input Width", "8"); // N:an (cz:M, q:P)
+setText("Output Width", "8"); // N:an (cz:M, q:P)
+selectCheckBox((HResource) null, "Coarse Rotation", false); // h:JCheckBox (bi:A, q:P): FALSE
+selectCheckBox((HResource) null, "Coarse Rotation", true); // h:JCheckBox (bi:A, q:P): TRUE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Implementation Details", 1); // cy:g (G:JPanel, q:P)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, PAResourceTtoZ.XPG_BasePanel_IP_SYMBOL, "IP Symbol", 0); // cy:g (G:JPanel, q:P)
+// Elapsed time: 33 seconds
+selectComboBox("Functional Selection (Functional_Selection)", "Sin and Cos", 2); // bq:c (G:JPanel, q:P)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI4 Stream Options", 1); // cy:g (G:JPanel, q:P)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Configuration Options", 0); // cy:g (G:JPanel, q:P)
+selectComboBox("Functional Selection (Functional_Selection)", "Sin and Cos", 2); // bq:c (G:JPanel, q:P)

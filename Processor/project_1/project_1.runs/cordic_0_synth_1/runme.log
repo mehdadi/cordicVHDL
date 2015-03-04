@@ -1,0 +1,553 @@
+
+*** Running vivado
+    with args -log cordic_0.vds -m64 -mode batch -messageDb vivado.pb -source cordic_0.tcl
+
+
+****** Vivado v2014.3 (64-bit)
+  **** SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+  **** IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source cordic_0.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7k70tfbg676-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property webtalk.parent_dir C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.cache/wt [current_project]
+# set_property parent.project_path C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language VHDL [current_project]
+# read_ip c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0.xci
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_funcsim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'cordic_0' generated file not found 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_funcsim.vhdl'. Please regenerate to continue.
+# set_property is_locked true [get_files c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0.xci]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# catch { write_hwdef -file cordic_0.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top cordic_0 -part xc7k70tfbg676-1 -mode out_of_context
+Command: synth_design -top cordic_0 -part xc7k70tfbg676-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:51 ; elapsed = 00:01:01 . Memory (MB): peak = 236.055 ; gain = 80.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cordic_0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/synth/cordic_0.vhd:69]
+INFO: [Synth 8-3491] module 'cordic_v6_0' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0.vhd:106' bound to instance 'U0' of component 'cordic_v6_0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/synth/cordic_0.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'cordic_v6_0__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0.vhd:163]
+INFO: [Synth 8-3491] module 'cordic_v6_0_viv' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_viv.vhd:131' bound to instance 'i_synth' of component 'cordic_v6_0_viv' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'cordic_v6_0_viv__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_viv.vhd:199]
+INFO: [Synth 8-3491] module 'xbip_pipe_v3_0_viv' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:106' bound to instance 'i_nd_to_rdy' of component 'xbip_pipe_v3_0_viv' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_viv.vhd:591]
+INFO: [Synth 8-638] synthesizing module 'xbip_pipe_v3_0_viv__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-256] done synthesizing module 'xbip_pipe_v3_0_viv__parameterized0' (1#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/xbip_pipe_v3_0/hdl/xbip_pipe_v3_0_viv.vhd:131]
+INFO: [Synth 8-3491] module 'cordic_v6_0_synth' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_synth.vhd:115' bound to instance 'i_synth' of component 'cordic_v6_0_synth' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_viv.vhd:678]
+INFO: [Synth 8-638] synthesizing module 'cordic_v6_0_synth__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_synth.vhd:163]
+INFO: [Synth 8-3491] module 'cordic_inp_config' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:118' bound to instance 'input_stage' of component 'cordic_inp_config' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_synth.vhd:319]
+INFO: [Synth 8-638] synthesizing module 'cordic_inp_config__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:148]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'gen_phase_4quad' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:483]
+INFO: [Synth 8-638] synthesizing module 'addsub__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:140]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_viv' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_viv.vhd:129' bound to instance 'inst' of component 'c_addsub_v12_0_viv' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_viv__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_viv.vhd:187]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_legacy' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_legacy.vhd:140' bound to instance 'i_baseblox_addsub' of component 'c_addsub_v12_0_legacy' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_viv.vhd:308]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_legacy__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_legacy.vhd:216]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_fabric_legacy' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_fabric_legacy.vhd:151' bound to instance 'the_addsub' of component 'c_addsub_v12_0_fabric_legacy' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_legacy.vhd:507]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_fabric_legacy__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_fabric_legacy.vhd:203]
+INFO: [Synth 8-3491] module 'c_addsub_v12_0_lut6_legacy' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:142' bound to instance 'i_lut6_addsub' of component 'c_addsub_v12_0_lut6_legacy' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_fabric_legacy.vhd:220]
+INFO: [Synth 8-638] synthesizing module 'c_addsub_v12_0_lut6_legacy__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:194]
+INFO: [Synth 8-3491] module 'c_reg_fd_v12_0_viv' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_reg_fd_v12_0/hdl/c_reg_fd_v12_0_viv.vhd:134' bound to instance 'qreg' of component 'c_reg_fd_v12_0_viv' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:791]
+INFO: [Synth 8-638] synthesizing module 'c_reg_fd_v12_0_viv__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_reg_fd_v12_0/hdl/c_reg_fd_v12_0_viv.vhd:164]
+INFO: [Synth 8-256] done synthesizing module 'c_reg_fd_v12_0_viv__parameterized0' (2#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_reg_fd_v12_0/hdl/c_reg_fd_v12_0_viv.vhd:164]
+INFO: [Synth 8-113] binding component instance 'carrymux0' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1115]
+INFO: [Synth 8-113] binding component instance 'carryxor0' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1123]
+INFO: [Synth 8-113] binding component instance 'carryxortop' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1135]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'carrymux' to cell 'MUXCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1157]
+INFO: [Synth 8-113] binding component instance 'carryxor' to cell 'XORCY' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:1165]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_lut6_legacy__parameterized0' (3#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_lut6_legacy.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_fabric_legacy__parameterized0' (4#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_fabric_legacy.vhd:203]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_legacy__parameterized0' (5#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_legacy.vhd:216]
+INFO: [Synth 8-256] done synthesizing module 'c_addsub_v12_0_viv__parameterized0' (6#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/c_addsub_v12_0/hdl/c_addsub_v12_0_viv.vhd:187]
+INFO: [Synth 8-256] done synthesizing module 'addsub__parameterized0' (7#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:140]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'gen_phase_3_4quad' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:503]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'gen_phase_2_4quad' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:523]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'gen_phase_1_4quad' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:543]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'gen_phase_int_dly' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:563]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized0' (8#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'gen_phase_cr' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:597]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'gen_quad_cr' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:643]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized2' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized2' (8#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-3491] module 'delay_bit' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:125' bound to instance 'gen_nd_cr' of component 'delay_bit' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:656]
+INFO: [Synth 8-638] synthesizing module 'delay_bit__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'delay_bit__parameterized0' (9#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'cordic_inp_config__parameterized0' (10#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_inp_config.vhd:148]
+INFO: [Synth 8-3491] module 'cordic_eng' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:118' bound to instance 'cordic_engine' of component 'cordic_eng' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_synth.vhd:349]
+INFO: [Synth 8-638] synthesizing module 'cordic_eng__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:151]
+INFO: [Synth 8-3491] module 'cordic_eng_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:117' bound to instance 'eng' of component 'cordic_eng_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'cordic_eng_slice_par__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_dat_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:121' bound to instance 'data_slice' of component 'cordic_dat_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'cordic_dat_acc_slice_par__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'x_plus_y_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:171]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'y_plus_x_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:195]
+INFO: [Synth 8-256] done synthesizing module 'cordic_dat_acc_slice_par__parameterized0' (11#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'cordic_pha_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:118' bound to instance 'phase_slice' of component 'cordic_pha_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:210]
+INFO: [Synth 8-638] synthesizing module 'cordic_pha_acc_slice_par__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:138]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'phase_plus_atan' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:152]
+INFO: [Synth 8-256] done synthesizing module 'cordic_pha_acc_slice_par__parameterized0' (12#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:138]
+INFO: [Synth 8-3491] module 'cordic_ctrl_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:118' bound to instance 'cntrl' of component 'cordic_ctrl_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'cordic_ctrl_slice_par__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:138]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'cntrl_vect_dly' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized4' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized4' (12#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-3491] module 'delay_bit' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:125' bound to instance 'engine_mode_dly' of component 'delay_bit' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'delay_bit__parameterized2' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'delay_bit__parameterized2' (12#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'cordic_ctrl_slice_par__parameterized0' (13#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'cordic_eng_slice_par__parameterized0' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_eng_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:117' bound to instance 'eng' of component 'cordic_eng_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'cordic_eng_slice_par__parameterized2' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_dat_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:121' bound to instance 'data_slice' of component 'cordic_dat_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'cordic_dat_acc_slice_par__parameterized2' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'x_plus_y_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:171]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'y_plus_x_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:195]
+INFO: [Synth 8-256] done synthesizing module 'cordic_dat_acc_slice_par__parameterized2' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'cordic_pha_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:118' bound to instance 'phase_slice' of component 'cordic_pha_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:210]
+INFO: [Synth 8-3491] module 'cordic_ctrl_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:118' bound to instance 'cntrl' of component 'cordic_ctrl_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:229]
+INFO: [Synth 8-256] done synthesizing module 'cordic_eng_slice_par__parameterized2' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_eng_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:117' bound to instance 'eng' of component 'cordic_eng_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'cordic_eng_slice_par__parameterized4' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_dat_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:121' bound to instance 'data_slice' of component 'cordic_dat_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'cordic_dat_acc_slice_par__parameterized4' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'x_plus_y_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:171]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'y_plus_x_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:195]
+INFO: [Synth 8-256] done synthesizing module 'cordic_dat_acc_slice_par__parameterized4' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'cordic_pha_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:118' bound to instance 'phase_slice' of component 'cordic_pha_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:210]
+INFO: [Synth 8-3491] module 'cordic_ctrl_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:118' bound to instance 'cntrl' of component 'cordic_ctrl_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:229]
+INFO: [Synth 8-256] done synthesizing module 'cordic_eng_slice_par__parameterized4' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_eng_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:117' bound to instance 'eng' of component 'cordic_eng_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'cordic_eng_slice_par__parameterized6' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_dat_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:121' bound to instance 'data_slice' of component 'cordic_dat_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'cordic_dat_acc_slice_par__parameterized6' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'x_plus_y_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:171]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'y_plus_x_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:195]
+INFO: [Synth 8-256] done synthesizing module 'cordic_dat_acc_slice_par__parameterized6' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'cordic_pha_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:118' bound to instance 'phase_slice' of component 'cordic_pha_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:210]
+INFO: [Synth 8-3491] module 'cordic_ctrl_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:118' bound to instance 'cntrl' of component 'cordic_ctrl_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:229]
+INFO: [Synth 8-256] done synthesizing module 'cordic_eng_slice_par__parameterized6' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_eng_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:117' bound to instance 'eng' of component 'cordic_eng_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'cordic_eng_slice_par__parameterized8' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_dat_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:121' bound to instance 'data_slice' of component 'cordic_dat_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'cordic_dat_acc_slice_par__parameterized8' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'x_plus_y_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:171]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'y_plus_x_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:195]
+INFO: [Synth 8-256] done synthesizing module 'cordic_dat_acc_slice_par__parameterized8' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'cordic_pha_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:118' bound to instance 'phase_slice' of component 'cordic_pha_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:210]
+INFO: [Synth 8-3491] module 'cordic_ctrl_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:118' bound to instance 'cntrl' of component 'cordic_ctrl_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:229]
+INFO: [Synth 8-256] done synthesizing module 'cordic_eng_slice_par__parameterized8' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_eng_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:117' bound to instance 'eng' of component 'cordic_eng_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'cordic_eng_slice_par__parameterized10' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-3491] module 'cordic_dat_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:121' bound to instance 'data_slice' of component 'cordic_dat_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:186]
+INFO: [Synth 8-638] synthesizing module 'cordic_dat_acc_slice_par__parameterized10' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'x_plus_y_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:171]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'y_plus_x_shift' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:195]
+INFO: [Synth 8-256] done synthesizing module 'cordic_dat_acc_slice_par__parameterized10' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_dat_acc_slice_par.vhd:144]
+INFO: [Synth 8-3491] module 'cordic_pha_acc_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_pha_acc_slice_par.vhd:118' bound to instance 'phase_slice' of component 'cordic_pha_acc_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:210]
+INFO: [Synth 8-3491] module 'cordic_ctrl_slice_par' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_ctrl_slice_par.vhd:118' bound to instance 'cntrl' of component 'cordic_ctrl_slice_par' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:229]
+INFO: [Synth 8-256] done synthesizing module 'cordic_eng_slice_par__parameterized10' (14#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng_slice_par.vhd:147]
+INFO: [Synth 8-256] done synthesizing module 'cordic_eng__parameterized0' (15#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_eng.vhd:151]
+INFO: [Synth 8-3491] module 'cordic_out_config' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:117' bound to instance 'output_stage' of component 'cordic_out_config' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_synth.vhd:381]
+INFO: [Synth 8-638] synthesizing module 'cordic_out_config__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:155]
+INFO: [Synth 8-3491] module 'delay_bit' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:125' bound to instance 'gen_rdy_alg' of component 'delay_bit' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'delay_bit__parameterized4' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'delay_bit__parameterized4' (15#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:146]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'gen_data_x_addsub' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:290]
+INFO: [Synth 8-3491] module 'addsub' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/addsub.vhd:117' bound to instance 'gen_data_y_addsub' of component 'addsub' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:309]
+INFO: [Synth 8-3491] module 'delay_bit' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:125' bound to instance 'gen_swap_x_y_reg' of component 'delay_bit' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:330]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'gen_data_x_cr' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:345]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'gen_data_y_cr' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:360]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'gen_phase_cr' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:373]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized6' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized6' (15#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-3491] module 'delay_bit' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:125' bound to instance 'gen_rdy_cr' of component 'delay_bit' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:499]
+INFO: [Synth 8-3491] module 'cordic_round' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_round.vhd:121' bound to instance 'round' of component 'cordic_round' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:616]
+INFO: [Synth 8-638] synthesizing module 'cordic_round__parameterized0' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_round.vhd:142]
+INFO: [Synth 8-3491] module 'delay' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:127' bound to instance 'gen_round_out' of component 'delay' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_round.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'delay__parameterized8' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'delay__parameterized8' (15#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'cordic_round__parameterized0' (16#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_round.vhd:142]
+INFO: [Synth 8-3491] module 'cordic_round' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_round.vhd:121' bound to instance 'round' of component 'cordic_round' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:639]
+INFO: [Synth 8-3491] module 'delay_bit' declared at 'c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/delay_bit.vhd:125' bound to instance 'gen_rdy' of component 'delay_bit' [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:684]
+INFO: [Synth 8-256] done synthesizing module 'cordic_out_config__parameterized0' (17#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_out_config.vhd:155]
+INFO: [Synth 8-256] done synthesizing module 'cordic_v6_0_synth__parameterized0' (18#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_synth.vhd:163]
+INFO: [Synth 8-256] done synthesizing module 'cordic_v6_0_viv__parameterized0' (19#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0_viv.vhd:199]
+INFO: [Synth 8-256] done synthesizing module 'cordic_v6_0__parameterized0' (20#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_v6_0/hdl/cordic_v6_0.vhd:163]
+INFO: [Synth 8-256] done synthesizing module 'cordic_0' (21#1) [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/synth/cordic_0.vhd:69]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:03 ; elapsed = 00:02:38 . Memory (MB): peak = 287.145 ; gain = 131.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:03 ; elapsed = 00:02:38 . Memory (MB): peak = 287.145 ; gain = 131.719
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 288 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/Vivado/2014.3/data\parts/xilinx/kintex7/kintex7/xc7k70t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.3/data\parts/xilinx/kintex7/kintex7/xc7k70t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.3/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.3/data\parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.3/data\parts/xilinx/kintex7/kintex7/xc7k70t/fbg676/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.3/data\./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.3/data\parts/xilinx/kintex7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.runs/cordic_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.runs/cordic_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 581.629 ; gain = 0.012
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:18 ; elapsed = 00:02:57 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbg676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:18 ; elapsed = 00:02:57 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.runs/cordic_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:18 ; elapsed = 00:02:57 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:19 ; elapsed = 00:02:58 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:19 ; elapsed = 00:02:59 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:59 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:59 . Memory (MB): peak = 581.629 ; gain = 426.203
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:03:00 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:03:00 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:03:00 . Memory (MB): peak = 581.629 ; gain = 426.203
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:03:00 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:44 ; elapsed = 00:03:31 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:44 ; elapsed = 00:03:31 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[11] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__7.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__1.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__2.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__3.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__4.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__5.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__6.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__8.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__9.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__10.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__11.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__12.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__13.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__14.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__15.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__16.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__17.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__18.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__19.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[10] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[9] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[8] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[7] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[6] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[5] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__20.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__21.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__22.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__23.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__23.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__23.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0__23.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[12] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0.
+INFO: [Synth 8-3332] Sequential element (\i_baseblox.i_baseblox_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1] ) is unused and will be removed from module c_addsub_v12_0_viv__parameterized0.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:45 ; elapsed = 00:03:33 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:46 ; elapsed = 00:03:34 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:46 ; elapsed = 00:03:34 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:46 ; elapsed = 00:03:34 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |    25|
+|2     |LUT2   |     1|
+|3     |LUT3   |   285|
+|4     |LUT5   |     1|
+|5     |LUT6   |    10|
+|6     |MUXCY  |   230|
+|7     |SRL16E |     4|
+|8     |XORCY  |   217|
+|9     |FDRE   |   315|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:46 ; elapsed = 00:03:34 . Memory (MB): peak = 581.629 ; gain = 426.203
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:03:15 . Memory (MB): peak = 581.629 ; gain = 100.863
+Synthesis Optimization Complete : Time (s): cpu = 00:02:46 ; elapsed = 00:03:34 . Memory (MB): peak = 581.629 ; gain = 426.203
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 217 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 69 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 69 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+251 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:44 ; elapsed = 00:03:31 . Memory (MB): peak = 581.629 ; gain = 395.348
+# rename_ref -prefix_all cordic_0_
+INFO: [Coretcl 2-1174] Renamed 185 cell refs.
+# write_checkpoint -noxdef cordic_0.dcp
+# catch { report_utilization -file cordic_0_utilization_synth.rpt -pb cordic_0_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 581.629 ; gain = 0.000
+# if { [catch {
+#   file copy -force C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.runs/cordic_0_synth_1/cordic_0.dcp c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0.dcp
+# } _RESULT ] } { 
+#   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
+# }
+# if { [catch {
+#   write_verilog -force -mode synth_stub c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_stub.v
+# } _RESULT ] } { 
+#   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
+# }
+# if { [catch {
+#   write_vhdl -force -mode synth_stub c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_stub.vhdl
+# } _RESULT ] } { 
+#   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
+# }
+# if { [catch {
+#   write_verilog -force -mode funcsim c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_funcsim.v
+# } _RESULT ] } { 
+#   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
+# }
+# if { [catch {
+#   write_vhdl -force -mode funcsim c:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.srcs/sources_1/ip/cordic_0_1/cordic_0_funcsim.vhdl
+# } _RESULT ] } { 
+#   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
+# }
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 04 10:09:30 2015...

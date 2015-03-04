@@ -1,0 +1,38 @@
+Release 13.2 Map O.61xd (nt64)
+Xilinx Mapping Report File for Design 'ControlUnit'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+Target Device  : xc7vx330t
+Target Package : ffg1157
+Target Speed   : -3
+Mapper Version : virtex7 -- $Revision: 1.55 $
+Mapped Date    : Mon Dec 19 21:31:21 2011
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Security:9 - No 'ISE' feature was available for part 'xc7vx330t'.
+ERROR:Security:11 - No 'xc7vx330t' feature was available for 'ISE'.
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - No license file was found.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:53 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:56 - Part 'xc7vx330t' is not a WebPack part; is Beta.
+INFO:Security:68 - Please run the Xilinx License Configuration Manager

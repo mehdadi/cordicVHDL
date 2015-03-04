@@ -1,0 +1,2 @@
+vhdl work "BIU.vhd"
+vhdl work "BIUtestbench.vhd"

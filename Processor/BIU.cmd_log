@@ -1,0 +1,1 @@
+vhdtdtfi -prj Processor -o C:/Users/mehrdad/Documents/xilinx/Processor/BIU.vhi -module BIU -template C:/Xilinx/13.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BIU.vhd 

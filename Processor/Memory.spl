@@ -1,0 +1,10 @@
+[Inputs]
+clk
+req_data
+wrt_en
+=add[7:0]=
+=data_in[7:0]=
+[Outputs]
+data_rdy
+=data_out[7:0]=
+[BiDir]

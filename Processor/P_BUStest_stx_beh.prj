@@ -1,0 +1,2 @@
+vhdl isim_temp "P_BUS.vhd"
+vhdl isim_temp "P_BUStest.vhd"

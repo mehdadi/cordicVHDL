@@ -1,0 +1,96 @@
+
+*** Running vivado
+    with args -log Proccessor.vds -m64 -mode batch -messageDb vivado.pb -source Proccessor.tcl
+
+
+****** Vivado v2014.3 (64-bit)
+  **** SW Build 1034051 on Fri Oct  3 17:14:12 MDT 2014
+  **** IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source Proccessor.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# set_msg_config -id {Synth 8-256} -limit 10000
+# set_msg_config -id {Synth 8-638} -limit 10000
+# create_project -in_memory -part xc7k70tfbg676-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.3/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.cache/wt [current_project]
+# set_property parent.project_path C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language VHDL [current_project]
+# add_files -quiet C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.runs/cordic_0_synth_1/cordic_0.dcp
+# set_property used_in_implementation false [get_files C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/project_1/project_1.runs/cordic_0_synth_1/cordic_0.dcp]
+# read_vhdl -library xil_defaultlib {
+#   C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ALU.vhd
+#   C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/P_BUS.vhd
+#   C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/Memory.vhd
+#   C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd
+#   C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/Proccessor.vhd
+# }
+# catch { write_hwdef -file Proccessor.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top Proccessor -part xc7k70tfbg676-1
+Command: synth_design -top Proccessor -part xc7k70tfbg676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 229.383 ; gain = 71.680
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Proccessor' [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/Proccessor.vhd:42]
+INFO: [Synth 8-3491] module 'ControlUnit' declared at 'C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:34' bound to instance 'cou0' of component 'ControlUnit' [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/Proccessor.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:51]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:331]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:347]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:348]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:349]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:352]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:353]
+WARNING: [Synth 8-613] shared variable will be implemented as local to architecture [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:354]
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ALU.vhd:32' bound to instance 'ALU0' of component 'ALU' [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:360]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ALU.vhd:42]
+INFO: [Synth 8-226] default block is never used [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ALU.vhd:63]
+WARNING: [Synth 8-614] signal 'en_adder' is read in the process but is not in the sensitivity list [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ALU.vhd:53]
+WARNING: [Synth 8-614] signal 'en_sub' is read in the process but is not in the sensitivity list [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ALU.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (1#1) [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ALU.vhd:42]
+ERROR: [Synth 8-426] missing choice(s) 5 in case statement [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:507]
+ERROR: [Synth 8-285] failed synthesizing module 'ControlUnit' [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/ControlUnit.vhd:51]
+ERROR: [Synth 8-285] failed synthesizing module 'Proccessor' [C:/Users/mehrdad.montazeri/Dropbox/BackUp-Old/Xilinx/Processor5/Processor/Proccessor.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 262.563 ; gain = 104.859
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+    while executing
+"rt::run_rtlelab -module $rt::top"
+    invoked from within
+"if {$rt::useElabCache == false} {
+      rt::run_rtlelab -module $rt::top
+    }"
+    ("uplevel" body line 44)
+    invoked from within
+"uplevel #0 {
+    set ::env(BUILTIN_SYNTH) true
+    source $::env(HRT_TCL_PATH)/rtSynthPrep.tcl
+    rt::HARTNDb_resetJobStats
+    rt::HARTNDb_startJobS..."
+INFO: [Common 17-83] Releasing license: Synthesis
+9 Infos, 9 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+
+    while executing
+"source -notrace {./.Xil/Vivado-9208-Mehrdad-PC/realtime\Proccessor.tcl}"
+    invoked from within
+"synth_design -top Proccessor -part xc7k70tfbg676-1"
+    (file "Proccessor.tcl" line 29)
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 04 17:35:55 2015...

@@ -1,0 +1,7 @@
+vhdl work "ALU.vhd"
+vhdl work "P_BUS.vhd"
+vhdl work "Memory.vhd"
+vhdl work "ipcore_dir/cordic_v4_0.vhd"
+vhdl work "ControlUnit.vhd"
+vhdl work "Proccessor.vhd"
+vhdl work "TB_Proccessor.vhd"
